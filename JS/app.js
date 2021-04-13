@@ -31,44 +31,22 @@ let allStars = [
 
 let firstHalf = [
   "ATL",
-  "BOS",
-  "BRK",
-  "CHI",
-  "CHO",
-  "CLE",
   "DAL",
-  "DEN",
-  "DET",
-  "GSW",
-  "HOU",
-  "IND",
-  "LAC",
-  "LAL",
-  "MEM",
+  "FLA",
+  "LON",
+  "LAG",
+  "LAT"
 ];
 
 let secondHalf = [
-  "MIA",
-  "MIL",
   "MIN",
-  "NOP",
-  "NYK",
-  "OKC",
-  "ORL",
-  "PHI",
-  "PHO",
-  "POR",
-  "SAC",
-  "SAS",
-  "TOR",
-  "UTA",
-  "WAS",
+  "NYS",
+  "OGC",
+  "PAR",
+  "SEA",
+  "TOR"
 ];
 
-// let leftSideCss =
-//   let rightSideCss = "<div id='positioner'><div id='profile'> <center><h2>"
-//     let leftSideCssAllStar =
-//     let rightSideCssAllStar = "<div id='positioner-all-star'><div id='profile-all-star'> <center><h2 id='all-star-name'>"
 
 Array.prototype.getUnique = function () {
   var o = {},
@@ -505,125 +483,11 @@ fetch("data/statistics.json")
           } else {
             if (firstHalf.includes(d.Tm)) {
               return (
-                "<div id='positioner-left'><div id='profile'> <center><h2>" +
-                d.name +
-                "</h2></center>" +
-                d.img +
-                "<div id='stats'>" +
-                "<div id='stats-left'>" +
-                "<div>" +
-                "PTS - " +
-                d.PTS +
-                "</div>" +
-                "<div>" +
-                "REB - " +
-                d.TRB +
-                "</div>" +
-                "<div>" +
-                "AST - " +
-                d.AST +
-                "</div>" +
-                "<div>" +
-                "STL - " +
-                d.STL +
-                "</div>" +
-                "<div>" +
-                "BLK - " +
-                d.BLK +
-                "</div>" +
-                "<div>" +
-                "TOV - " +
-                d.TOV +
-                "</div>" +
-                "</div>" +
-                "<div id='stats-right'>" +
-                "<div>" +
-                "FG% - " +
-                currFGper +
-                "</div>" +
-                "<div>" +
-                "3P% - " +
-                curr3Pper +
-                "</div>" +
-                "<div>" +
-                "FT% - " +
-                currFTper +
-                "</div>" +
-                "<div>" +
-                "GP  - " +
-                d.G +
-                "</div>" +
-                "<div>" +
-                "MIN - " +
-                d.MP +
-                "</div>" +
-                "<div>" +
-                "AGE - " +
-                d.Age +
-                "</div>" +
-                "</div>" +
-                "</div>"
+                "<div id='positioner-left'>"+ d.img +"</div>"
               );
             } else {
               return (
-                "<div id='positioner-right'><div id='profile'> <center><h2>" +
-                d.name +
-                "</h2></center>" +
-                d.img +
-                "<div id='stats'>" +
-                "<div id='stats-left'>" +
-                "<div>" +
-                "PTS - " +
-                d.PTS +
-                "</div>" +
-                "<div>" +
-                "REB - " +
-                d.TRB +
-                "</div>" +
-                "<div>" +
-                "AST - " +
-                d.AST +
-                "</div>" +
-                "<div>" +
-                "STL - " +
-                d.STL +
-                "</div>" +
-                "<div>" +
-                "BLK - " +
-                d.BLK +
-                "</div>" +
-                "<div>" +
-                "TOV - " +
-                d.TOV +
-                "</div>" +
-                "</div>" +
-                "<div id='stats-right'>" +
-                "<div>" +
-                "FG% - " +
-                currFGper +
-                "</div>" +
-                "<div>" +
-                "3P% - " +
-                curr3Pper +
-                "</div>" +
-                "<div>" +
-                "FT% - " +
-                currFTper +
-                "</div>" +
-                "<div>" +
-                "GP  - " +
-                d.G +
-                "</div>" +
-                "<div>" +
-                "MIN - " +
-                d.MP +
-                "</div>" +
-                "<div>" +
-                "AGE - " +
-                d.Age +
-                "</div>" +
-                "</div>" +
-                "</div>"
+                "<div id='positioner-right'>"+ d.img + "</div>"
               );
             }
           }
@@ -798,9 +662,42 @@ fetch("data/statistics.json")
         })
         .attr("xlink:href", function (d) {
           if (d.name === "NBA") {
-            return "https://castrstatic-5doxhowepfdd9.stackpathdns.com/portal.sportscastr.com/v1/media/logos/Circle/NBA_Logo.png";
-          } else if (d.name.length <= 3) {
-            return `https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/${d.name.toLowerCase()}.png&h=80&w=80&scale=crop`;
+            return "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/blt10f0d59f97d93946/5d8940702f5989598fc7de16/CDL_Logo.svg?auto=webp";
+          } else if (d.name === "ATL") {
+            return "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/blt9e748f41b10f329c/5dc489f10386806c8e4e0b65/ATL-FAZ_Alternate-Logo-2.svg?auto=webp";
+          }
+          else if (d.name === "DAL") {
+            return "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/bltf333725f060a6231/5dabbcb161bae97f636adbcc/DAL_-_Empire.svg?auto=webp";
+          }
+          else if (d.name === "FLA") {
+            return "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/bltcb76ee572edb9eb1/5db6f301afa1e66c2c3e67c8/FLA_-_Mutineers.svg?auto=webp";
+          }
+          else if (d.name === "LON") {
+            return "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/blt5edc59dbbfc88667/5da5fabf3412200466759b94/LON_Alternate-Logo.svg?auto=webp";
+          }
+          else if (d.name === "LAG") {
+            return "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/bltf8a143b45301c312/5dc48b33f4eb996c3143cd7b/LOS_-_Guerrillas.svg?auto=webp";
+          }
+          else if (d.name === "LAT") {
+            return "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/blt4ae7c1816b4ffc52/5fa5a10ea9e913483b74d191/cdl_la_thieves_primary_logo_padding.svg?auto=webp";
+          }
+          else if (d.name === "MIN") {
+            return "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/blt685f76976e5310ed/5db84de2f9bc554996993be4/MIN_-_ROKKR.svg?auto=webp";
+          }
+          else if (d.name === "NYS") {
+            return "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/blt9fe05d38b5a052b6/5dadecc07561c86c84a4bb18/NYC_-_Subliners.svg?auto=webp";
+          }
+          else if (d.name === "OGC") {
+            return "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/bltce1c4bf649961799/5fac274746cf5a5635c5d116/cdl_og_chi_icon_black.svg?auto=webp";
+          }
+          else if (d.name === "PAR") {
+            return "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/blt7c039a2766790e32/5dbdac971af57b7f5dfa2df1/PAR_-_Legion.svg?auto=webp";
+          }
+          else if (d.name === "SEA") {
+            return "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/bltbe8507a1cef478bb/5dba15def9bc554996993cd0/SEA_-_Surge.svg?auto=webp";
+          }
+          else if (d.name === "TOR") {
+            return "https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/bltcdbf12f8e1f145b1/5dc447c37561c86c84a4c3dd/Group_4.svg?auto=webp";
           }
         });
 

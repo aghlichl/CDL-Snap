@@ -376,36 +376,36 @@ svg {
 }
 
 #positioner-right {
-  transform: scale(0.85);
+  transform: scale(6);
   position: fixed;
-  top: 0vh;
-  right: 0vw;
+  top: 50vh;
+  right: 10vw;
   line-height: 1;
   font-weight: bold;
-  padding: 15px 20px;
-  background: linear-gradient(
-      -225deg,
-      #26daad2d 0%,
-      #001510 25%,
-      #360033 60%,
-      #0b8893b9 100%
-    ),
-    repeating-linear-gradient(
-      -115deg,
-      transparent,
-      transparent 20px,
-      rgba(255, 255, 255, 0.1) 20px,
-      rgba(255, 255, 255, 0.1) 40px
-    ),
-    repeating-linear-gradient(
-      115deg,
-      transparent,
-      transparent 20px,
-      rgba(255, 255, 255, 0.1) 20px,
-      rgba(255, 255, 255, 0.1) 40px
-    );
-  color: #fff;
-  border-radius: 3%;
+  // padding: 15px 20px;
+  // background: linear-gradient(
+  //     -225deg,
+  //     #26daad2d 0%,
+  //     #001510 25%,
+  //     #360033 60%,
+  //     #0b8893b9 100%
+  //   ),
+  //   repeating-linear-gradient(
+  //     -115deg,
+  //     transparent,
+  //     transparent 20px,
+  //     rgba(255, 255, 255, 0.1) 20px,
+  //     rgba(255, 255, 255, 0.1) 40px
+  //   ),
+  //   repeating-linear-gradient(
+  //     115deg,
+  //     transparent,
+  //     transparent 20px,
+  //     rgba(255, 255, 255, 0.1) 20px,
+  //     rgba(255, 255, 255, 0.1) 40px
+  //   );
+  // color: #fff;
+  // border-radius: 3%;
   animation: grz 5s ease infinite;
 }
 
