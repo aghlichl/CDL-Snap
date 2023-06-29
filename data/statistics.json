@@ -1,257 +1,325 @@
 {
     "name": "NBA",
-    "children": [
-      {
-        "name": "ATL",
-        "children": [
-          {
-            "name": "Abezy",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/ABEZY3.png' />"
-          }, 
-          {
-            "name": "Arcitys",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/arcitys33.png' />"
-          }, 
-          {
-            "name": "Cellium",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/cell2.png' />"
-          }, 
-          {
-            "name": "Simp",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/simp11.png' />"
-          }
-        ]
-      },
-      {
-        "name": "DAL",
-        "children": [
-          {
-            "name": "Crimsix",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/CRIMSIX2.png' />"
-          }, 
-          {
-            "name": "huke",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/huke32.png' />"
-          }, 
-          {
-            "name": "Illey",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/ILLEY2.png' />"
-          }, 
-          {
-            "name": "Shotzzy",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/sHOTZY.png' />"
-          }
-        ]
-      },
-      {
-        "name": "FLA",
-        "children": [
-          {
-            "name": "Neptune",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/NEPTUNE.png' />"
-          }, 
-          {
-            "name": "Owakenig",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/Wake.png' />"
-          }, 
-          {
-            "name": "Slacked",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/slacked322.png' />"
-          }, 
-          {
-            "name": "Skyz",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/skyz.png' />"
-          }
-        ]
-      },
-      {
-        "name": "LON",
-        "children": [
-          {
-            "name": "Alexx",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/ALEXX2.png' />"
-          }, 
-          {
-            "name": "Dylan",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/DYL3.png' />"
-          }, 
-          {
-            "name": "Parasite",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/PARA.png' />"
-          }, 
-          {
-            "name": "Seany",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/SEANY2.png' />"
-          }
-        ]
-      },
-      {
-        "name": "LAG",
-        "children": [
-          {
-            "name": "Apathy",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/apathy.png' />"
-          }, 
-          {
-            "name": "Assault",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/ASSAULT3.png' />"
-          }, 
-          {
-            "name": "Silly",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/TJ.png' />"
-          }, 
-          {
-            "name": "Vivid",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/vivid32.png' />"
-          }
-        ]
-      },
-      {
-        "name": "LAT",
-        "children": [
-          {
-            "name": "Kenny",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/KEN2.png' />"
-          }, 
-          {
-            "name": "Temp",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/temp3.png' />"
-          }, 
-          {
-            "name": "TJHaly",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/TJ2.png' />"
-          }, 
-          {
-            "name": "Slasher",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/SLASHER21.png' />"
-          }
-        ]
-      },{
-        "name": "MIN",
-        "children": [
-          {
-            "name": "Accuracy",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/accuracy2.png' />"
-          }, 
-          {
-            "name": "Attach",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/MINE.png' />"
-          }, 
-          {
-            "name": "MajorManiak",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/major-2.png' />"
-          }, 
-          {
-            "name": "Priestahh",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/priestahh2.png' />"
-          }
-        ]
-      }
-      ,{
-        "name": "NYS",
-        "children": [
-          {
-            "name": "Asim",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/asim323.png' />"
-          }, 
-          {
-            "name": "Clayster",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/clayster12.png' />"
-          }, 
-          {
-            "name": "Diamondcon",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/DIAMOND22.png' />"
-          }, 
-          {
-            "name": "Mack",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/MACK32.png' />"
-          }
-        ]
-      },
-      {
-        "name": "OGC",
-        "children": [
-          {
-            "name": "Dashy",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/dashy332.png' />"
-          }, 
-          {
-            "name": "Envoy",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/enoy4.png' />"
-          }, 
-          {
-            "name": "Formal",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/formal222.png' />"
-          }, 
-          {
-            "name": "Scump",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/SCUMP5.png' />"
-          }
-        ]
-      },
-      {
-        "name": "PAR",
-        "children": [
-          {
-            "name": "Aqua",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/AQUA1.png' />"
-          }, 
-          {
-            "name": "Classic",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/CLASSIC2.png' />"
-          }, 
-          {
-            "name": "Fire",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/fire40.png' />"
-          }, 
-          {
-            "name": "Skrapz",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/skrapz22.png' />"
-          }
-        ]
-      },
-      {
-        "name": "SEA",
-        "children": [
-          {
-            "name": "Gunless",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/gUNLESS.png' />"
-          }, 
-          {
-            "name": "Loony",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/loony3.png' />"
-          }, 
-          {
-            "name": "Octane",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/OCTANE22.png' />"
-          }, 
-          {
-            "name": "Prestinni",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/PRESTON221.png' />"
-          }
-        ]
-      },
-      {
-        "name": "TOR",
-        "children": [
-          {
-            "name": "Bance",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/BANCE22.png' />"
-          }, 
-          {
-            "name": "Cammy",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/CAMMY21.png' />"
-          }, 
-          {
-            "name": "CleanX",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/cleanx.png' />"
-          }, 
-          {
-            "name": "Methodz",
-            "img": "<img id='cover-img' src='https://breakingpoint.gg/wp-content/uploads/2021/03/methodz2.png' />"
-          }
-        ]
-      }
-    ] 
+    "children": [{
+            "name": "ATL",
+            "children": [{
+                    "Tm": "ATL",
+                    "name": "Abezy",
+                    "img": "<img id='cover-img' src='data/cardSource/ATL/abezy.jpeg' />"
+                },
+                {
+                    "Tm": "ATL",
+                    "name": "Cellium",
+                    "img": "<img id='cover-img' src='data/cardSource/ATL/cell.jpeg' />"
+                },
+                {
+                    "Tm": "ATL",
+                    "name": "Simp",
+                    "img": "<img id='cover-img' src='data/cardSource/ATL/simp.jpeg' />"
+                },
+                {
+                    "Tm": "ATL",
+                    "name": "Slasher",
+                    "img": "<img id='cover-img' src='data/cardSource/ATL/slasher.jpeg' />"
+                }
+            ]
+        },
+        {
+            "name": "BOS",
+            "children": [{
+                    "Tm": "BOS",
+                    "name": "Beans",
+                    "img": "<img id='cover-img' src='data/cardSource/BOS/beans.jpeg' />"
+                },
+                {
+                    "Tm": "BOS",
+                    "name": "Kremp",
+                    "img": "<img id='cover-img' src='data/cardSource/BOS/kremp.jpeg' />"
+                },
+                {
+                    "Tm": "BOS",
+                    "name": "Methodz",
+                    "img": "<img id='cover-img' src='data/cardSource/BOS/meth.jpeg' />"
+                },
+                {
+                    "Tm": "BOS",
+                    "name": "Nero",
+                    "img": "<img id='cover-img' src='data/cardSource/BOS/nero.jpeg' />"
+                },
+                {
+                    "Tm": "BOS",
+                    "name": "Owakening",
+                    "img": "<img id='cover-img' src='data/cardSource/BOS/wake.jpeg' />"
+                }
+            ]
+        },
+        {
+            "name": "FLA",
+            "children": [{
+                    "Tm": "FLA",
+                    "name": "Brack",
+                    "img": "<img id='cover-img' src='data/cardSource/FLA/brack.jpeg' />"
+                },
+                {
+                    "Tm": "FLA",
+                    "name": "Capsidal",
+                    "img": "<img id='cover-img' src='data/cardSource/FLA/cap.jpeg' />"
+                },
+                {
+                    "Tm": "FLA",
+                    "name": "Felo",
+                    "img": "<img id='cover-img' src='data/cardSource/FLA/felo.jpeg' />"
+                },
+                {
+                    "Tm": "FLA",
+                    "name": "Havok",
+                    "img": "<img id='cover-img' src='data/cardSource/FLA/havok.jpeg' />"
+                },
+                {
+                    "Tm": "FLA",
+                    "name": "MajorManiak",
+                    "img": "<img id='cover-img' src='data/cardSource/FLA/major.jpeg' />"
+                }
+            ]
+        },
+        {
+            "name": "LON",
+            "children": [{
+                    "Tm": "LON",
+                    "name": "Asim",
+                    "img": "<img id='cover-img' src='data/cardSource/LON/asim.jpeg' />"
+                },
+                {
+                    "Tm": "LON",
+                    "name": "Nastie",
+                    "img": "<img id='cover-img' src='data/cardSource/LON/nastie.jpeg' />"
+                },
+                {
+                    "Tm": "LON",
+                    "name": "PaulEhx",
+                    "img": "<img id='cover-img' src='data/cardSource/LON/paulx.jpeg' />"
+                },
+                {
+                    "Tm": "LON",
+                    "name": "Skrapz",
+                    "img": "<img id='cover-img' src='data/cardSource/LON/Skrapz.jpeg' />"
+                }
+            ]
+        },
+        {
+            "name": "LAG",
+            "children": [{
+                    "Tm": "LAG",
+                    "name": "Arcitys",
+                    "img": "<img id='cover-img' src='data/cardSource/LAG/arcitys.jpeg' />"
+                },
+                {
+                    "Tm": "LAG",
+                    "name": "Assault",
+                    "img": "<img id='cover-img' src='data/cardSource/LAG/assault.jpeg' />"
+                },
+                {
+                    "Tm": "LAG",
+                    "name": "Exceed",
+                    "img": "<img id='cover-img' src='data/cardSource/LAG/exceed.jpeg' />"
+                },
+                {
+                    "Tm": "LAG",
+                    "name": "JoeDeceives",
+                    "img": "<img id='cover-img' src='data/cardSource/LAG/joe.jpeg' />"
+                }
+            ]
+        },
+        {
+            "name": "LAT",
+            "children": [{
+                    "Tm": "LAT",
+                    "name": "Drazah",
+                    "img": "<img id='cover-img' src='data/cardSource/LAT/drazah.jpeg' />"
+                },
+                {
+                    "Tm": "LAT",
+                    "name": "Envoy",
+                    "img": "<img id='cover-img' src='data/cardSource/LAT/envoy.jpeg' />"
+                },
+                {
+                    "Tm": "LAT",
+                    "name": "Kenny",
+                    "img": "<img id='cover-img' src='data/cardSource/LAT/ken.jpeg' />"
+                },
+                {
+                    "Tm": "LAT",
+                    "name": "Octane",
+                    "img": "<img id='cover-img' src='data/cardSource/LAT/octane.jpeg' />"
+                }
+            ]
+        }, {
+            "name": "MIN",
+            "children": [{
+                    "Tm": "MIN",
+                    "name": "Afro",
+                    "img": "<img id='cover-img' src='data/cardSource/MIN/afro.jpeg' />"
+                },
+                {
+                    "Tm": "MIN",
+                    "name": "Attach",
+                    "img": "<img id='cover-img' src='data/cardSource/MIN/attach.jpeg' />"
+                },
+                {
+                    "Tm": "MIN",
+                    "name": "Bance",
+                    "img": "<img id='cover-img' src='data/cardSource/MIN/bance.jpeg' />"
+                },
+                {
+                    "Tm": "MIN",
+                    "name": "Cammy",
+                    "img": "<img id='cover-img' src='data/cardSource/MIN/cammy.jpeg' />"
+                },
+                {
+                    "Tm": "MIN",
+                    "name": "Fame",
+                    "img": "<img id='cover-img' src='data/cardSource/MIN/fame.jpeg' />"
+                }
+            ]
+        }, {
+            "name": "NYS",
+            "children": [{
+                    "Tm": "NYS",
+                    "name": "Hydra",
+                    "img": "<img id='cover-img' src='data/cardSource/NYS/hydra.jpeg' />"
+                },
+                {
+                    "Tm": "NYS",
+                    "name": "Kismet",
+                    "img": "<img id='cover-img' src='data/cardSource/NYS/kis.jpeg' />"
+                },
+                {
+                    "Tm": "NYS",
+                    "name": "Priestahh",
+                    "img": "<img id='cover-img' src='data/cardSource/NYS/preston.jpeg' />"
+                },
+                {
+                    "Tm": "NYS",
+                    "name": "Skyz",
+                    "img": "<img id='cover-img' src='data/cardSource/NYS/Skyz.jpeg' />"
+                }
+            ]
+        },
+        {
+            "name": "OPT",
+            "children": [{
+                    "Tm": "OPT",
+                    "name": "Dashy",
+                    "img": "<img id='cover-img' src='data/cardSource/OPT/dashy.jpeg' />"
+                },
+                {
+                    "Tm": "OPT",
+                    "name": "Ghosty",
+                    "img": "<img id='cover-img' src='data/cardSource/OPT/ghosty.jpeg' />"
+                },
+                {
+                    "Tm": "OPT",
+                    "name": "Huke",
+                    "img": "<img id='cover-img' src='data/cardSource/OPT/huke.jpeg' />"
+                },
+                {
+                    "Tm": "OPT",
+                    "name": "Illey",
+                    "img": "<img id='cover-img' src='data/cardSource/OPT/illey.jpeg' />"
+                },
+                {
+                    "Tm": "OPT",
+                    "name": "Scump",
+                    "img": "<img id='cover-img' src='data/cardSource/OPT/scump.jpeg' />"
+                },
+                {
+                    "Tm": "OPT",
+                    "name": "Shotzzy",
+                    "img": "<img id='cover-img' src='data/cardSource/OPT/shotzy.jpeg' />"
+                }
+            ]
+        },
+        {
+            "name": "SEA",
+            "children": [{
+                    "Tm": "SEA",
+                    "name": "Accuracy",
+                    "img": "<img id='cover-img' src='data/cardSource/SEA/accuracy.jpeg' />"
+                },
+                {
+                    "Tm": "SEA",
+                    "name": "Mack",
+                    "img": "<img id='cover-img' src='data/cardSource/SEA/mack.jpeg' />"
+                },
+                {
+                    "Tm": "SEA",
+                    "name": "Pred",
+                    "img": "<img id='cover-img' src='data/cardSource/SEA/pred.jpeg' />"
+                },
+                {
+                    "Tm": "SEA",
+                    "name": "Sib ",
+                    "img": "<img id='cover-img' src='data/cardSource/SEA/sibsib.jpeg' />"
+                }
+            ]
+        },
+        {
+            "name": "TOR",
+            "children": [{
+                    "Tm": "TOR",
+                    "name": "CleanX",
+                    "img": "<img id='cover-img' src='data/cardSource/TOR/cleanx.jpeg' />"
+                },
+                {
+                    "Tm": "TOR",
+                    "name": "Insight",
+                    "img": "<img id='cover-img' src='data/cardSource/TOR/insight.jpeg' />"
+                },
+                {
+                    "Tm": "TOR",
+                    "name": "Hicksy",
+                    "img": "<img id='cover-img' src='data/cardSource/TOR/hicksy.jpeg' />"
+                },
+                {
+                    "Tm": "TOR",
+                    "name": "Scrappy",
+                    "img": "<img id='cover-img' src='data/cardSource/TOR/scrap.jpeg' />"
+                }
+            ]
+        },
+        {
+            "name": "VEG",
+            "children": [{
+                    "Tm": "VEG",
+                    "name": "2Real",
+                    "img": "<img id='cover-img' src='data/cardSource/VEG/2real.jpeg' />"
+                },
+                {
+                    "Tm": "VEG",
+                    "name": "Clayster",
+                    "img": "<img id='cover-img' src='data/cardSource/VEG/clay.jpeg' />"
+                },
+                {
+                    "Tm": "VEG",
+                    "name": "Prolute",
+                    "img": "<img id='cover-img' src='data/cardSource/VEG/prolute.jpeg' />"
+                },
+                {
+                    "Tm": "VEG",
+                    "name": "Standy",
+                    "img": "<img id='cover-img' src='data/cardSource/VEG/standy.jpeg' />"
+                },
+                {
+                    "Tm": "VEG",
+                    "name": "Temp",
+                    "img": "<img id='cover-img' src='data/cardSource/VEG/temp.jpeg' />"
+                },
+                {
+                    "Tm": "VEG",
+                    "name": "TJHaly",
+                    "img": "<img id='cover-img' src='data/cardSource/VEG/tjhaly.jpeg' />"
+                }
+            ]
+        }
+    ]
 }
-
